@@ -1,0 +1,26 @@
+@import 'npm:normalize.css';
+@import 'npm:@fontsource/ubuntu';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#photo{
+	margin-top:-75px;
+}
+
+html,body{
+	font-family:'Ubuntu';
+}
+body{	
+	display:flex;
+	justify-content:center;
+	align-items: center;
+
+}
+#card-wrapper{
+	display:flex;
+	flex-direction:column;
+	width:350px;
+	background-color:blue;
+	border-radius:0.25rem;
+}
