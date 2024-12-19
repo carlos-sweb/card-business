@@ -6,7 +6,7 @@ import photo from "./photo.jpeg";
 var Card = {
 	view: function() {
 		return m("div", {
-			class:"bg-gray-50 rounded p-8 mt-20 flex flex-col justify-center items-center shadow-lg"
+			class:"animated fadeIn delay-1s bg-gray-50 rounded p-8 mt-20 flex flex-col justify-center items-center shadow-lg"
 		},
 		[
 			m("img",{ class:"rounded w-28 flex", id:"photo", src : photo }),

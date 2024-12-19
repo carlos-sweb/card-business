@@ -1,5 +1,11 @@
 @import 'npm:normalize.css';
 @import 'npm:@fontsource/ubuntu';
+
+
+@import 'npm:animate.css/source/_vars.css';
+@import 'npm:animate.css/source/_base.css';
+@import 'npm:animate.css/source/fading_entrances/fadeIn.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

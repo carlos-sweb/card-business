@@ -608,7 +608,7 @@ root.classList.add("bg-gray-200");
 var Card = {
     view: function() {
         return (0, _mithrilDefault.default)("div", {
-            class: "bg-gray-50 rounded p-8 mt-20 flex flex-col justify-center items-center shadow-lg"
+            class: "animated fadeIn delay-1s bg-gray-50 rounded p-8 mt-20 flex flex-col justify-center items-center shadow-lg"
         }, [
             (0, _mithrilDefault.default)("img", {
                 class: "rounded w-28 flex",
