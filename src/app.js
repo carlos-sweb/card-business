@@ -9,7 +9,7 @@ var Card = {
 			class:"bg-gray-50 rounded p-8 mt-20 flex flex-col justify-center items-center shadow-lg"
 		},
 		[
-			m("img",{ class:"rounded w-20 flex", id:"photo", src : photo }),
+			m("img",{ class:"rounded w-28 flex", id:"photo", src : photo }),
 			m("p", {class: "text-2xl font-bold text-center mt-3 tracking-wide"}, config.name ),
 			m("p", {class: "text-center mt-3"}, config.carrier ),
 			m("p", {class: "text-center mt-3"}, config.description ),
